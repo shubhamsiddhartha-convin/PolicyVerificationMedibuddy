@@ -1,1 +1,22 @@
-
+{
+  "customers": [
+    {
+      "id": 1,
+      "phone": "9876543210",
+      "name": "Priya Sharma",
+      "last_ad_date": "2024-11-15"
+    },
+    {
+      "id": 2,
+      "phone": "9123456789",
+      "name": "Rahul Mehta",
+      "last_ad_date": "2024-10-02"
+    },
+    {
+      "id": 3,
+      "phone": "9988776655",
+      "name": "Anita Rao",
+      "last_ad_date": "2025-01-20"
+    }
+  ]
+}
