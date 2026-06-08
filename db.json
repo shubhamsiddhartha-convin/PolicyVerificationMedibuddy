@@ -1,22 +1,404 @@
 {
-  "customers": [
+  "employees": [
     {
       "id": 1,
-      "phone": "7795202469",
-      "name": "Shubham Siddhartha",
-      "last_ad_date": "2024-11-15"
+      "emp_id": "EMP1001",
+      "name": "Kiran Mehta",
+      "age": 23,
+      "gender": "Male",
+      "department": "Sales",
+      "eligibility": {
+        "knee_replacement": "No",
+        "hip_replacement": "No",
+        "cataract_surgery": "No",
+        "lasik_eye_surgery": "No",
+        "dental_root_canal": "Yes",
+        "dental_implant": "No",
+        "delivery_normal": "No",
+        "delivery_caesarean": "No",
+        "bariatric_surgery": "No",
+        "cardiac_bypass": "No"
+      }
     },
     {
       "id": 2,
-      "phone": "9123456789",
-      "name": "Rahul Mehta",
-      "last_ad_date": "2024-10-02"
+      "emp_id": "EMP1002",
+      "name": "Kiran Verma",
+      "age": 30,
+      "gender": "Male",
+      "department": "Marketing",
+      "eligibility": {
+        "knee_replacement": "No",
+        "hip_replacement": "No",
+        "cataract_surgery": "No",
+        "lasik_eye_surgery": "Yes",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "No",
+        "delivery_caesarean": "No",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "No"
+      }
     },
     {
       "id": 3,
-      "phone": "9988776655",
-      "name": "Anita Rao",
-      "last_ad_date": "2025-01-20"
+      "emp_id": "EMP1003",
+      "name": "Deepak Sharma",
+      "age": 59,
+      "gender": "Male",
+      "department": "Engineering",
+      "eligibility": {
+        "knee_replacement": "Yes",
+        "hip_replacement": "Yes",
+        "cataract_surgery": "Yes",
+        "lasik_eye_surgery": "Yes",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "No",
+        "delivery_caesarean": "No",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "Yes"
+      }
+    },
+    {
+      "id": 4,
+      "emp_id": "EMP1004",
+      "name": "Amit Joshi",
+      "age": 35,
+      "gender": "Male",
+      "department": "Operations",
+      "eligibility": {
+        "knee_replacement": "No",
+        "hip_replacement": "No",
+        "cataract_surgery": "No",
+        "lasik_eye_surgery": "Yes",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "No",
+        "delivery_caesarean": "No",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "No"
+      }
+    },
+    {
+      "id": 5,
+      "emp_id": "EMP1005",
+      "name": "Amit Iyer",
+      "age": 57,
+      "gender": "Male",
+      "department": "Marketing",
+      "eligibility": {
+        "knee_replacement": "Yes",
+        "hip_replacement": "Yes",
+        "cataract_surgery": "Yes",
+        "lasik_eye_surgery": "Yes",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "No",
+        "delivery_caesarean": "No",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "Yes"
+      }
+    },
+    {
+      "id": 6,
+      "emp_id": "EMP1006",
+      "name": "Swati Nair",
+      "age": 36,
+      "gender": "Female",
+      "department": "HR",
+      "eligibility": {
+        "knee_replacement": "No",
+        "hip_replacement": "No",
+        "cataract_surgery": "No",
+        "lasik_eye_surgery": "Yes",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "Yes",
+        "delivery_caesarean": "Yes",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "No"
+      }
+    },
+    {
+      "id": 7,
+      "emp_id": "EMP1007",
+      "name": "Kiran Gupta",
+      "age": 32,
+      "gender": "Male",
+      "department": "HR",
+      "eligibility": {
+        "knee_replacement": "No",
+        "hip_replacement": "No",
+        "cataract_surgery": "No",
+        "lasik_eye_surgery": "Yes",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "No",
+        "delivery_caesarean": "No",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "No"
+      }
+    },
+    {
+      "id": 8,
+      "emp_id": "EMP1008",
+      "name": "Sunita Pillai",
+      "age": 31,
+      "gender": "Female",
+      "department": "HR",
+      "eligibility": {
+        "knee_replacement": "No",
+        "hip_replacement": "No",
+        "cataract_surgery": "No",
+        "lasik_eye_surgery": "Yes",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "Yes",
+        "delivery_caesarean": "Yes",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "No"
+      }
+    },
+    {
+      "id": 9,
+      "emp_id": "EMP1009",
+      "name": "Deepak Verma",
+      "age": 27,
+      "gender": "Male",
+      "department": "HR",
+      "eligibility": {
+        "knee_replacement": "No",
+        "hip_replacement": "No",
+        "cataract_surgery": "No",
+        "lasik_eye_surgery": "No",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "No",
+        "delivery_caesarean": "No",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "No"
+      }
+    },
+    {
+      "id": 10,
+      "emp_id": "EMP1010",
+      "name": "Kavita Pillai",
+      "age": 60,
+      "gender": "Female",
+      "department": "Engineering",
+      "eligibility": {
+        "knee_replacement": "Yes",
+        "hip_replacement": "Yes",
+        "cataract_surgery": "Yes",
+        "lasik_eye_surgery": "Yes",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "Yes",
+        "delivery_caesarean": "Yes",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "Yes"
+      }
+    },
+    {
+      "id": 11,
+      "emp_id": "EMP1011",
+      "name": "Neha Jain",
+      "age": 56,
+      "gender": "Female",
+      "department": "Finance",
+      "eligibility": {
+        "knee_replacement": "Yes",
+        "hip_replacement": "Yes",
+        "cataract_surgery": "Yes",
+        "lasik_eye_surgery": "Yes",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "Yes",
+        "delivery_caesarean": "Yes",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "Yes"
+      }
+    },
+    {
+      "id": 12,
+      "emp_id": "EMP1012",
+      "name": "Suresh Shah",
+      "age": 57,
+      "gender": "Male",
+      "department": "Marketing",
+      "eligibility": {
+        "knee_replacement": "Yes",
+        "hip_replacement": "Yes",
+        "cataract_surgery": "Yes",
+        "lasik_eye_surgery": "Yes",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "No",
+        "delivery_caesarean": "No",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "Yes"
+      }
+    },
+    {
+      "id": 13,
+      "emp_id": "EMP1013",
+      "name": "Sunita Iyer",
+      "age": 58,
+      "gender": "Female",
+      "department": "Engineering",
+      "eligibility": {
+        "knee_replacement": "Yes",
+        "hip_replacement": "Yes",
+        "cataract_surgery": "Yes",
+        "lasik_eye_surgery": "Yes",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "Yes",
+        "delivery_caesarean": "Yes",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "Yes"
+      }
+    },
+    {
+      "id": 14,
+      "emp_id": "EMP1014",
+      "name": "Rahul Mehta",
+      "age": 36,
+      "gender": "Male",
+      "department": "Engineering",
+      "eligibility": {
+        "knee_replacement": "No",
+        "hip_replacement": "No",
+        "cataract_surgery": "No",
+        "lasik_eye_surgery": "Yes",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "No",
+        "delivery_caesarean": "No",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "No"
+      }
+    },
+    {
+      "id": 15,
+      "emp_id": "EMP1015",
+      "name": "Deepak Mehta",
+      "age": 28,
+      "gender": "Male",
+      "department": "Finance",
+      "eligibility": {
+        "knee_replacement": "No",
+        "hip_replacement": "No",
+        "cataract_surgery": "No",
+        "lasik_eye_surgery": "No",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "No",
+        "delivery_caesarean": "No",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "No"
+      }
+    },
+    {
+      "id": 16,
+      "emp_id": "EMP1016",
+      "name": "Meena Patel",
+      "age": 32,
+      "gender": "Female",
+      "department": "Sales",
+      "eligibility": {
+        "knee_replacement": "No",
+        "hip_replacement": "No",
+        "cataract_surgery": "No",
+        "lasik_eye_surgery": "Yes",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "Yes",
+        "delivery_caesarean": "Yes",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "No"
+      }
+    },
+    {
+      "id": 17,
+      "emp_id": "EMP1017",
+      "name": "Rekha Reddy",
+      "age": 26,
+      "gender": "Female",
+      "department": "Sales",
+      "eligibility": {
+        "knee_replacement": "No",
+        "hip_replacement": "No",
+        "cataract_surgery": "No",
+        "lasik_eye_surgery": "No",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "Yes",
+        "delivery_caesarean": "Yes",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "No"
+      }
+    },
+    {
+      "id": 18,
+      "emp_id": "EMP1018",
+      "name": "Manish Gupta",
+      "age": 32,
+      "gender": "Male",
+      "department": "HR",
+      "eligibility": {
+        "knee_replacement": "No",
+        "hip_replacement": "No",
+        "cataract_surgery": "No",
+        "lasik_eye_surgery": "Yes",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "No",
+        "delivery_caesarean": "No",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "No"
+      }
+    },
+    {
+      "id": 19,
+      "emp_id": "EMP1019",
+      "name": "Gaurav Pillai",
+      "age": 42,
+      "gender": "Male",
+      "department": "Engineering",
+      "eligibility": {
+        "knee_replacement": "No",
+        "hip_replacement": "No",
+        "cataract_surgery": "No",
+        "lasik_eye_surgery": "Yes",
+        "dental_root_canal": "Yes",
+        "dental_implant": "Yes",
+        "delivery_normal": "No",
+        "delivery_caesarean": "No",
+        "bariatric_surgery": "Yes",
+        "cardiac_bypass": "Yes"
+      }
+    },
+    {
+      "id": 20,
+      "emp_id": "EMP1020",
+      "name": "Rahul Patel",
+      "age": 24,
+      "gender": "Male",
+      "department": "Finance",
+      "eligibility": {
+        "knee_replacement": "No",
+        "hip_replacement": "No",
+        "cataract_surgery": "No",
+        "lasik_eye_surgery": "No",
+        "dental_root_canal": "Yes",
+        "dental_implant": "No",
+        "delivery_normal": "No",
+        "delivery_caesarean": "No",
+        "bariatric_surgery": "No",
+        "cardiac_bypass": "No"
+      }
     }
   ]
 }
